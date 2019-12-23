@@ -41,3 +41,14 @@ function findTheCheese (foods) {
 	}
 	return "no cheese!";
 }
+
+
+function startsWithB (words){
+  var matches= []
+  words.forEach(function(word, i){
+  if(word.firstLetter == "b"){
+    matches.push(word)
+  }
+  }
+  return (matches);
+}
